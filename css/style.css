@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color:white;
+    height: 5em;
+}
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 40%;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:forestgreen ;
+    border: 1px solid forestgreen;
+    padding: 8px;
+    margin-right: 8px;
+}
+.head-tag a:hover{
+    background-color: forestgreen;
+    color: white;
+    transition: 0.5sec ease;
+}
+.login input{
+    height: 1.5em;
+}
+.login{
+    border: 2px solid forestgreen;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 30px;
+    width: 70%; 
+}
+.login #login-btn{
+    width: 50%;
+    height: 1.8em;
+    color: white;
+    background-color:forestgreen ;
+    border: 1px solid forestgreen;
+}
+.carousel-inner > .carousel-item > img { height: 360px; width: 640px; }
+#password-strength-status {
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.medium-password {
+    background-color: #b7d60a;
+    border: #BBB418 1px solid;
+}
+
+.weak-password {
+    background-color: #ce1d14;
+    border: #AA4502 1px solid;
+}
+
+.strong-password {
+    background-color: #12CC1A;
+    border: #0FA015 1px solid;
+}
